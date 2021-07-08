@@ -15,4 +15,10 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,"Evento:onCreate",Toast.LENGTH_LONG);
     }
 
+    @Override
+    protected void onStop(){
+        super.onStop();
+        Toast.makeText(this,"Evento:onStop",Toast.LENGTH_LONG);
+    }
+
 }
